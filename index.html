@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="board">
+        <div class="center">
+          <div class="red-home home"></div>
+          <div class="yellow-home home"></div>
+          <div class="green-home home"></div>
+          <div class="blue-home home"></div>
+        </div>
+        <div class="red player">
+          <div class="red-player box">
+            <span class="goti1 pawns" id="red-goti"></span>
+            <span class="goti2 pawns" id="red-goti"></span>
+            <span class="goti3 pawns" id="red-goti"></span>
+            <span class="goti4 pawns" id="red-goti"></span>
+          </div>
+        </div>
+        <div class="movepath ry">
+          <div class="red-top-center">
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"><span id="star-r">&#9734;</span></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+          </div>
+          <div class="ry-center-line">
+            <div class="boxes cb"><span id="trip-y">&#9735;</span></div>
+            <div class="boxes cb"></div>
+            <div class="boxes cb"></div>
+            <div class="boxes cb"></div>
+            <div class="boxes cb"></div>
+            <div class="boxes cb"></div>
+          </div>
+          <div class="yellow-right-center">
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+          </div>
+        </div>
+        <div class="yellow player">
+          <div class="yellow-player box">
+            <span class="goti1 pawns" id="yellow-goti"></span>
+            <span class="goti2 pawns" id="yellow-goti"></span>
+            <span class="goti3 pawns" id="yellow-goti"></span>
+            <span class="goti4 pawns" id="yellow-goti"></span>
+          </div>
+        </div>
+        <div class="movepath yg">
+          <div class="yellow-top-center">
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"><span id="star-y">&#9734;</span></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+          </div>
+          <div class="yg-center-line">
+            <div class="boxes h cb-h"></div>
+            <div class="boxes h cb-h"></div>
+            <div class="boxes h cb-h"></div>
+            <div class="boxes h cb-h"></div>
+            <div class="boxes h cb-h"></div>
+            <div class="boxes h cb-h"><span id="trip-g">&#9735;</span></div>
+          </div>
+          <div class="green-right-center">
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+          </div>
+        </div>
+        <div class="movepath gb">
+          <div class="blue-right-center">
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+          </div>
+          <div class="gb-center-line">
+            <div class="boxes cb"></div>
+            <div class="boxes cb"></div>
+            <div class="boxes cb"></div>
+            <div class="boxes cb"></div>
+            <div class="boxes cb"></div>
+            <div class="boxes cb"><span id="trip-b">&#9735;</span></div>
+          </div>
+          <div class="green-top-center">
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"><span id="star-g">&#9734;</span></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+          </div>
+        </div>
+        <div class="green player">
+          <div class="green-player box">
+            <span class="goti1 pawns" id="green-goti"></span>
+            <span class="goti2 pawns" id="green-goti"></span>
+            <span class="goti3 pawns" id="green-goti"></span>
+            <span class="goti4 pawns" id="green-goti"></span>
+          </div>
+        </div>
+        <div class="blue player">
+          <div class="blue-player box">
+            <span class="goti1 pawns" id="blue-goti"></span>
+            <span class="goti2 pawns" id="blue-goti"></span>
+            <span class="goti3 pawns" id="blue-goti"></span>
+            <span class="goti4 pawns" id="blue-goti"></span>
+          </div>
+        </div>
+        <div class="movepath br">
+          <div class="red-right-center">
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+          </div>
+          <div class="br-center-line">
+            <div class="boxes h cb-h"><span id="trip-r">&#9735;</span></div>
+            <div class="boxes h cb-h"></div>
+            <div class="boxes h cb-h"></div>
+            <div class="boxes h cb-h"></div>
+            <div class="boxes h cb-h"></div>
+            <div class="boxes h cb-h"></div>
+          </div>
+          <div class="blue-top-center">
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"><span id="star-b">&#9734;</span></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+            <div class="boxes h"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
